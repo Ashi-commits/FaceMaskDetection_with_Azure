@@ -155,7 +155,3 @@ while i<3:
     plt.show()
     i += 1
 
-
-#plot_image_with_mask_label(r'C:\Users\Ayushi\OneDrive\Desktop\CVI\Project\Images\Weird Mask\ef97e115-52d0-11ec-9443-70665522a7c4.jpg')
-#plot_image_with_mask_label(r'C:\Users\Ayushi\OneDrive\Desktop\CVI\Project\Images\Weird Mask\f6645181-52d0-11ec-b853-70665522a7c4.jpg')
-
