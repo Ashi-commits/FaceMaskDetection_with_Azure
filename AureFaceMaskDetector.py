@@ -98,7 +98,7 @@ def plot_image_with_mask_label(image_filepath):
         y = rectangle_data['top']
         w = rectangle_data['width']
         h = rectangle_data['height']
-        if detected_face['faceAttributes']['mask']['type'] == 'noMask':
+        if detected_face['faceAttributes']['mask']['type'] == 'noMask' or detected_face['faceAttributes']['mask']['noseAndMouthCovered'] == 0:
             label_str = "No Mask"
             color_str = "red"
         else:
